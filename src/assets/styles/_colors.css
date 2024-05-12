@@ -1,15 +1,7 @@
-.bg-white {
-  background-color: $color-white;
-}
-
-.bg-black {
-  background-color: $color-black;
-}
-
-.bg-gray-light {
-  background-color: $color-gray-light;
-}
-
-.bg-gray-dark {
-  background-color: $color-gray-dark;
+:root {
+  --primary-color: #333; /* 深灰色 */
+  --secondary-color: #919191; /* 中灰色 */
+  --background-color: #F1F1F1; /* 浅灰色 */
+  --white-color: #FFF;
+  --black-color: #000;
 }

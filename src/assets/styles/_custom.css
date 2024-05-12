@@ -6,8 +6,8 @@
 
 /* Header */
 .header {
-  background: var(--primary-color);
-  color: var(--white-color);
+  background: var(--white-color);
+  /* color: var(--black-color); */
   height: 96px;
   padding: 0px 312px 0px 312px;
   gap: 318px;
@@ -41,14 +41,14 @@
 
 .header nav ul li a {
   display: block; /* 改成block，搭配flex子元素 */
-  color: var(--white-color);
+  color: var(--black-color);
   text-decoration: none;
   font-weight: bold;
 }
 
 /* Hero 區塊 */
 .hero {
-  color: var(--white-color);
+  color: var(--black-color);
   padding: 100px 20px;
   text-align: left;
   display: flex;
@@ -76,7 +76,7 @@
   margin-right: 10px;
 }
 
-/* Work 区块样式 */
+/* Work */
 .work {
   background: var(--background-color);
   padding: 50px 20px;
@@ -122,7 +122,7 @@
   border-radius: 5px;
 }
 
-/* Service 区块样式 */
+/* Service */
 .service {
   padding: 50px 20px;
   background: url('/src/assets/images/homepage-services-bg.png') no-repeat center center;
@@ -143,7 +143,7 @@
   color: var(--primary-color);
 }
 
-/* Articles 区块样式 */
+/* Articles */
 .articles {
   padding: 50px 20px;
   background: var(--background-color);
@@ -179,7 +179,7 @@
   color: var(--secondary-color);
 }
 
-/* Footer 样式 */
+/* Footer */
 footer {
   background: var(--primary-color);
   color: var(--white-color);

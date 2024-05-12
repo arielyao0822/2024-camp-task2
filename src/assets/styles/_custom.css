@@ -1,0 +1,196 @@
+.container {
+  max-width: 1920px; /* 最大寬度 */
+  margin: 0 auto; /* 置中 */
+  padding: 0 15px; /* 邊界 */
+}
+
+/* Header */
+.header {
+  background: var(--primary-color);
+  color: var(--white-color);
+  height: 96px;
+  padding: 0px 312px 0px 312px;
+  gap: 318px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #F1F1F1
+}
+
+.img-header-logo {
+  height: 40px; /* Logo大小 */
+
+}
+
+.ul-header-nav {
+  width: 480px;
+  height: 32px;
+  display: flex; /* 使nav也使用flex列表項目水平排列 */
+  align-items: center;
+  justify-content: center;
+}
+
+.header nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.header nav ul li a {
+  display: block; /* 改成block，搭配flex子元素 */
+  color: var(--white-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Hero 區塊 */
+.hero {
+  color: var(--white-color);
+  padding: 100px 20px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: var(--font-large);
+  margin-bottom: var(--spacing-small);
+}
+
+.hero-content p {
+  font-size: var(--font-normal);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-small);
+}
+
+.icons img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+/* Work 区块样式 */
+.work {
+  background: var(--background-color);
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.work h2 {
+  font-size: var(--font-large);
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-normal);
+}
+
+.work-item {
+  margin-top: var(--spacing-large);
+}
+
+.work-coltext {
+  background: var(--white-color);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.work-h3 {
+  color: var(--secondary-color);
+}
+
+.work-text {
+  font-size: var(--font-small);
+  color: var(--black-color);
+}
+
+.work-tags {
+  list-style-type: none;
+  padding: 0;
+}
+
+.work-tag {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: var(--white-color);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Service 区块样式 */
+.service {
+  padding: 50px 20px;
+  background: url('/src/assets/images/homepage-services-bg.png') no-repeat center center;
+  background-size: cover;
+  text-align: center;
+}
+
+.service-item {
+  display: inline-block;
+  margin: 20px;
+  background: var(--white-color);
+  padding: 20px;
+  width: calc(25% - 40px);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.service-text {
+  color: var(--primary-color);
+}
+
+/* Articles 区块样式 */
+.articles {
+  padding: 50px 20px;
+  background: var(--background-color);
+}
+
+.article-item {
+  background: var(--white-color);
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.article-item h4 {
+  font-size: var(--font-normal);
+}
+
+.article-item .art-tags {
+  list-style-type: none;
+  padding: 0;
+}
+
+.article-item .art-tag {
+  display: inline-block;
+  background: var(--secondary-color);
+  color: var(--white-color);
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.article-item .art-date {
+  font-size: var(--font-small);
+  color: var(--secondary-color);
+}
+
+/* Footer 样式 */
+footer {
+  background: var(--primary-color);
+  color: var(--white-color);
+  text-align: center;
+  padding: 20px 0;
+}
+
+.footer-text {
+  margin: 10px 0;
+}
+
+.footer-email {
+  font-size: var(--font-small);
+}

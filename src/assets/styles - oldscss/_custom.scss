@@ -1,0 +1,213 @@
+/* 通用設置 */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: $font-family;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul, li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: $header-height;
+  background-color: $color-white;
+  padding: 32px 312px;
+  border-bottom: 1px solid #F1F1F1;
+  margin: 0 auto;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.logo {
+  width: 90px;
+  height: 40px;
+}
+
+.menu {
+  width: 480px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.menu li a {
+  font-size: 16px;
+  font-weight: bold;
+  color: $color-black;
+}
+
+/* Hero 區塊 */
+.hero {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  justify-content: center;
+  padding-left: 312px;
+  background-color: $color-gray-light;
+}
+
+.hero-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1920px;
+  height: 792px;
+  gap: 24px;
+}
+
+.hero-text {
+  flex: 0 0 430px;
+}
+
+.hero-text h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+
+.hero-text p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.hero-text .fs-6 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.hero-image {
+  flex: 0 0 $hero-width;
+}
+
+.hero-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Works 區塊 */
+.works {
+  width: 100%;
+  max-width: 1920px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px 0 0 0;
+  background-color: $color-white;
+}
+
+.title-lg {
+  width: 372px;
+  height: 39px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.work-row {
+  width: 100%;
+  max-width: 1920px;
+  position: relative;
+  margin-bottom: 80px;
+}
+
+.work-bg {
+  width: 100%;
+  text-align: center;
+}
+
+.work-bg img {
+  width: 100%;
+  height: auto;
+}
+
+.work-overlay {
+  position: absolute;
+  top: 80px;
+  left: 312px;
+  width: 714px;
+  height: 720px;
+}
+
+.work-overlay img {
+  width: 100%;
+  height: auto;
+}
+
+.work-text {
+  position: absolute;
+  top: 200px;
+  left: 1081px;
+  width: 526px;
+  height: 400px;
+  padding: 80px 40px 56px 40px;
+  gap: 40px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 24px 0 0 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.work-text h2 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 33.6px;
+  color: $color-gray-dark;
+  margin-bottom: 16px;
+}
+
+.work-text p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.tag {
+  background-color: $color-background;
+  color: $color-gray-dark;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 16px;
+  line-height: 24px;
+}
